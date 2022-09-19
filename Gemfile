@@ -34,9 +34,9 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '~> 1.4'
-  gem 'slim_lint'
   gem 'rubocop-rails'
+  gem 'slim_lint'
+  gem 'sqlite3', '~> 1.4'
 end
 
 group :development do
@@ -47,8 +47,8 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'rack-mini-profiler', '~> 2.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
   gem 'rubocop'
+  gem 'spring'
 end
 
 group :test do
