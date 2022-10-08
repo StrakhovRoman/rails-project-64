@@ -1,0 +1,9 @@
+doctype html
+html.h-100[lang="en"]
+  = render 'layouts/head'
+  body.d-flex.flex-column.h-100
+    = render 'layouts/navbar'
+    main.container.mt-3
+      = render 'layouts/flash'
+      = yield
+    = render 'layouts/footer'

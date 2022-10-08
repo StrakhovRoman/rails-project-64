@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'devise'
 gem 'rollbar'
+gem 'slim'
 gem 'slim-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
